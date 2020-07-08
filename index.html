@@ -12,16 +12,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+    
   </head>
 
   <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
       <a href="/" class="navbar-brand"> Whiskey Drop</a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
       <ul class="navbar-nav mr-auto">
         <li class="active nav-item mr-2">
           <a href="/" class="nav-link">Home</a>
@@ -29,10 +31,22 @@
         <li class="nav-item mr-2">
           <a href="/about" class="nav-link">About</a>
         </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Whiskeys
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Irish</a>
+                        <a class="dropdown-item" href="#">Scotch</a>
+                        <a class="dropdown-item" href="#">Japanese</a>
+                        <a class="dropdown-item" href="#">American</a>
+                    </div>
+        </li>
         <li class="nav-item mr-2 d-block d-sm-none">
           <a href="login" class="nav-link">Sign in / Sign up</a>
         </li>
       </ul>
+      </div>
       <div class="d-none d-md-block">
         <p class="navbar-text my-auto mr-2">
           <i>Great whiskey delivered to your door!</i>
@@ -132,7 +146,7 @@
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
-              <h3> <i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</badge></h3>
+              <h3> <i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -169,5 +183,15 @@
         </div>
       </section>
     </article>
-  </body>
-</html>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+	</body>
+	
+	</html>
