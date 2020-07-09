@@ -2,6 +2,15 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color:#f05f40;
+    color:#ffffff;
+    
+}
 .alert-container .col-12 {
     padding-left:0;
     padding-right:0;
@@ -33,6 +42,23 @@ body {
 
 }
 
+/*page headers*/
+
+.page-header {
+    margin-bottom:0;
+    border-bottom:0;
+    text-align:center;
+}
+
+.page-header h2 {
+    margin-top:0;
+
+}
+
+.quotes .page-header {
+    margin-bottom:25px;
+}
+
 .callout-container{
     height:100vh;
     background: url(../images/whiskey-background.jpg) no-repeat bottom right fixed; 
@@ -52,6 +78,7 @@ body {
     width:75px;
     height:5px;
     border:0;
+    background-color:#444;
     
     
 }
@@ -63,6 +90,17 @@ body {
 
 .block-divider--short {
     width:35px;
+}
+
+.block-divider--white {
+    background-color:#ffffff;
+}
+
+/*Content Containers*/
+
+.content-container {
+    padding-top:75px;
+    padding-bottom:75px;
 }
 
 /*Navbar*/
@@ -140,4 +178,27 @@ body {
 .btn--red: active:focus {
     background-color:#df4929;
     border-color:#df4929;
+}
+
+.feature {
+    text-align:center;
+    margin-bottom:40px;
+
+}
+
+.feature i {
+    margin-bottom:20px;
+    font-size:45px;
+    line-height:45px;
+}
+
+.feature .btn {
+    background-color:#ffffff;
+    border-color:#ffffff;
+    border-radius:15px;
+    min-width:100px;
+    font-weight:bold;
+    margin-top:10px;
+    color:#f05f40;
+
 }
